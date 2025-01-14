@@ -522,15 +522,16 @@ span {
         display: flex;
         flex-direction: column; /* Ubah tata letak menjadi vertikal */
         align-items: center;
+        gap: 20px; /* Beri jarak antar elemen */
     }
 
     .portfolio-box {
-        width: 100%; /* Pastikan gambar mengambil lebar penuh */
-        margin-bottom: 20px; /* Tambahkan jarak antar elemen */
+        width: 90%; /* Buat elemen lebih kecil dari lebar penuh */
     }
 
     .portfolio-box img {
-        width: 100%; /* Gambar menyesuaikan dengan lebar kontainer */
+        width: 100%; /* Gambar akan memenuhi lebar elemen */
         height: auto; /* Pertahankan rasio aspek gambar */
+        margin: 0 auto; /* Pusatkan gambar */
     }
 }
