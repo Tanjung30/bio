@@ -516,3 +516,21 @@ span {
         margin-top: 2rem;
     }
 }
+
+@media (max-width: 768px) {
+    .portfolio-container {
+        display: flex;
+        flex-direction: column; /* Ubah tata letak menjadi vertikal */
+        align-items: center;
+    }
+
+    .portfolio-box {
+        width: 100%; /* Pastikan gambar mengambil lebar penuh */
+        margin-bottom: 20px; /* Tambahkan jarak antar elemen */
+    }
+
+    .portfolio-box img {
+        width: 100%; /* Gambar menyesuaikan dengan lebar kontainer */
+        height: auto; /* Pertahankan rasio aspek gambar */
+    }
+}
